@@ -1,0 +1,5 @@
+C:\Users\rveremeev\Documents\CANalyzer\CANalyzer.Core\obj\Debug\net8.0\CANalyzer.Core.csproj.AssemblyReference.cache
+C:\Users\rveremeev\Documents\CANalyzer\CANalyzer.Core\obj\Debug\net8.0\CANalyzer.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rveremeev\Documents\CANalyzer\CANalyzer.Core\obj\Debug\net8.0\CANalyzer.Core.AssemblyInfoInputs.cache
+C:\Users\rveremeev\Documents\CANalyzer\CANalyzer.Core\obj\Debug\net8.0\CANalyzer.Core.AssemblyInfo.cs
+C:\Users\rveremeev\Documents\CANalyzer\CANalyzer.Core\obj\Debug\net8.0\CANalyzer.Core.csproj.CoreCompileInputs.cache

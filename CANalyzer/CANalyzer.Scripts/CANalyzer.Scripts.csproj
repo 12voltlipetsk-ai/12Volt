@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Platforms>AnyCPU;x86</Platforms>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CANalyzer.Core\CANalyzer.Core.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="CommandLineParser" Version="2.9.1" />
+  </ItemGroup>
+</Project>

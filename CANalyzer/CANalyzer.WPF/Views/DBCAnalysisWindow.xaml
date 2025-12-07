@@ -1,0 +1,27 @@
+<Window x:Class="CANalyzer.WPF.Views.DBCAnalysisWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="DBC Analysis" Height="600" Width="800">
+    
+    <DockPanel>
+        <!-- Добавьте StatusBar если нужно -->
+        <StatusBar DockPanel.Dock="Bottom">
+            <StatusBarItem>
+                <TextBlock x:Name="StatusText" Text="Ready"/>
+            </StatusBarItem>
+        </StatusBar>
+        
+        <!-- Остальная разметка с вашими DataGrid -->
+        <TabControl>
+            <TabItem Header="Defined Signals">
+                <DataGrid x:Name="DefinedGrid" AutoGenerateColumns="True"/>
+            </TabItem>
+            <TabItem Header="Undefined Signals">
+                <DataGrid x:Name="UndefinedGrid" AutoGenerateColumns="True"/>
+            </TabItem>
+            <TabItem Header="Try Signals">
+                <DataGrid x:Name="TryGrid" AutoGenerateColumns="True"/>
+            </TabItem>
+        </TabControl>
+    </DockPanel>
+</Window>

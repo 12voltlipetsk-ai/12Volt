@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Platforms>AnyCPU;x86</Platforms>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CANalyzer.Core\CANalyzer.Core.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ML" Version="4.0.0" />
+    <PackageReference Include="Microsoft.ML.AutoML" Version="0.22.0" />
+    <PackageReference Include="Microsoft.ML.TimeSeries" Version="4.0.0" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,46 @@
+{
+  "version": 2,
+  "dgSpecHash": "1p/RFtg+Tfc=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rveremeev\\Documents\\CANalyzer\\CANalyzer.Core\\CANalyzer.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rveremeev\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512",
+    "C:\\Users\\rveremeev\\.nuget\\packages\\mathnet.numerics\\5.0.0\\mathnet.numerics.5.0.0.nupkg.sha512",
+    "C:\\Users\\rveremeev\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\rveremeev\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\rveremeev\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0\\microsoft.extensions.logging.8.0.0.nupkg.sha512",
+    "C:\\Users\\rveremeev\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\rveremeev\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "C:\\Users\\rveremeev\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\rveremeev\\.nuget\\packages\\serilog\\3.1.1\\serilog.3.1.1.nupkg.sha512",
+    "C:\\Users\\rveremeev\\.nuget\\packages\\serilog.sinks.file\\5.0.0\\serilog.sinks.file.5.0.0.nupkg.sha512",
+    "C:\\Users\\rveremeev\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
+    "C:\\Users\\rveremeev\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "У пакета \"System.Text.Json\" 8.0.0 есть известная уязвимость https://github.com/advisories/GHSA-8g4q-xg66-9fp4 (уровень серьезности: высокий)",
+      "projectPath": "C:\\Users\\rveremeev\\Documents\\CANalyzer\\CANalyzer.Core\\CANalyzer.Core.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\rveremeev\\Documents\\CANalyzer\\CANalyzer.Core\\CANalyzer.Core.csproj",
+      "libraryId": "System.Text.Json",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "У пакета \"System.Text.Json\" 8.0.0 есть известная уязвимость https://github.com/advisories/GHSA-hh2w-p6rv-4g7w (уровень серьезности: высокий)",
+      "projectPath": "C:\\Users\\rveremeev\\Documents\\CANalyzer\\CANalyzer.Core\\CANalyzer.Core.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\rveremeev\\Documents\\CANalyzer\\CANalyzer.Core\\CANalyzer.Core.csproj",
+      "libraryId": "System.Text.Json",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}
