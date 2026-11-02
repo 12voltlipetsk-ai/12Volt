@@ -1,0 +1,58 @@
+## .NET / Visual Studio build output
+bin/
+obj/
+out/
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Ll]og/
+[Ll]ogs/
+
+## Visual Studio
+.vs/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.sln.docstates
+*.vspscc
+*.vssscc
+
+## Rider / VS Code
+.idea/
+.vscode/
+
+## NuGet
+*.nupkg
+*.snupkg
+project.assets.json
+project.nuget.cache
+*.nuget.props
+*.nuget.targets
+.nuget/
+
+## Результаты тестов и покрытие
+[Tt]est[Rr]esult*/
+*.trx
+coverage*.xml
+coverage*.json
+coverage*.info
+
+## Файлы, создаваемые приложением
+Logs/
+Exports/
+DBC_Exports/
+Temp/
+Models/
+*.log
+
+## ОС
+Thumbs.db
+Desktop.ini
+.DS_Store
